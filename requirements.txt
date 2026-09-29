@@ -1,0 +1,13 @@
+# Testing
+pytest==8.2.0
+
+# Core
+face_recognition==1.3.0
+opencv-python==4.9.0.80
+numpy>=1.26.4
+matplotlib>=3.8.0
+cryptography>=42.0.0
+
+# face_recognition hard dependencies (explicit pins for reproducibility)
+dlib==19.24.2
+Pillow==10.3.0

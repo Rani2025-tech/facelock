@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Biometric Templates & Secrets
+data/
+*.npy
+*.key
+*.enc
+.facelock_secret.key
+active_password.npy
+
+# Logs and SQLite databases
+*.log
+*.log.*
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
